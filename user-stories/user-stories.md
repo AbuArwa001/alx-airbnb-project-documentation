@@ -1,32 +1,29 @@
-# User Stories for Airbnb Clone Project
-
-Below are the user stories derived from the use case diagram:
-
+### **Guest (Regular User)**
 1. **User Registration**  
-   - **As a** new user,  
-   - **I want to** register an account,  
-   - **So that** I can access the platform and list or book properties.  
+   - As a guest, I want to register an account so I can book properties.  
+2. **Book a Property**  
+   - As a guest, I want to search and book a property for specific dates.  
+3. **Make Payment**  
+   - As a guest, I want to securely pay for my booking.  
 
-2. **User Login**  
-   - **As a** registered user,  
-   - **I want to** log in to my account,  
-   - **So that** I can manage my profile, bookings, or listings.  
+### **Host**
+4. **Create Property Listing**  
+   - As a host, I want to list my property with details (photos, price, amenities) so guests can book it.  
+5. **Manage Listings**  
+   - As a host, I want to edit or delete my listings to keep information up-to-date.  
+6. **View Bookings**  
+   - As a host, I want to see upcoming bookings for my properties.  
 
-3. **Update Profile**  
-   - **As a** user,  
-   - **I want to** update my profile information (e.g., name, contact details),  
-   - **So that** my account details remain accurate.  
+### **Admin**
+7. **Manage Users**  
+   - As an admin, I want to suspend or delete user accounts for policy violations.  
+8. **Verify Listings**  
+   - As an admin, I want to approve/reject property listings to ensure quality.  
+9. **View Reports**  
+   - As an admin, I want to generate reports (e.g., revenue, bookings) for analysis.  
 
-4. **Property Booking**  
-   - **As a** user,  
-   - **I want to** book a property for a specific date range,  
-   - **So that** I can plan my stay.  
-
-5. **Make Payment**  
-   - **As a** user,  
-   - **I want to** make a payment for my booked property,  
-   - **So that** my reservation is confirmed.  
-
-### Error Handling (Extension Points)
-- If registration/login fails, the system should display an error message.
-- If payment fails, the system should notify the user and allow retry.
+### **Shared**
+10. **Login/Logout**  
+    - As any user, I want to log in/out to access or secure my account.  
+11. **Error Handling**  
+    - If actions fail (e.g., payment, login), the system should display clear errors.  
